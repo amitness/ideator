@@ -7,3 +7,12 @@ Developed as part of [Techrise](https://www.techrise.me/) web development bootca
 
 ## Dependencies:
 The dependencies are included in the Gemfile
+
+
+## Contributing
+1. [Create an issue](https://github.com/amitness/ideator/issues/new) if there is one.
+2. [Fork the repo](https://github.com/amitness/ideator/fork).
+3. Create your feature branch (`git checkout -b your-feature`).
+4. Add and commit your changes (`git commit -am 'message'`).
+5. Push the branch (`git push origin your-feature`).
+6. Create a new Pull Request.
