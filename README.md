@@ -11,12 +11,16 @@ The dependencies are included in the Gemfile
 ## Usage
 
 1. Clone the repo  
-```git clone https://github.com/amitness/ideator```
+  ```git clone https://github.com/amitness/ideator```
 
 2. Install dependencies  
-```bundle install```
+  ```bundle install```
 
 3. Create database with rake.
+    ```
+    rake db:create
+    rake db:migrate
+    ```
 
 
 ## Contributing
