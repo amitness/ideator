@@ -26,6 +26,13 @@ class IdeasController < ApplicationController
       end
     end
 
+    
+    def destroy
+      @idea = Idea.find(params[:id])
+      @idea.destroy
+      redirect_to root_path
+    end
+
     private
 
     def idea_params
