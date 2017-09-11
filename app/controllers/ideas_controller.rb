@@ -1,6 +1,6 @@
 class IdeasController < ApplicationController
     def index
-        @ideas = Idea.all
+        @ideas = Idea.order("created_at DESC").paginate(:page => params[:page], :per_page => 2)
     end
 
     def create
@@ -26,7 +26,7 @@ class IdeasController < ApplicationController
       end
     end
 
-    
+
     def destroy
       @idea = Idea.find(params[:id])
       @idea.destroy
