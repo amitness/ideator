@@ -1,24 +1,9 @@
-# README
+# Ideator
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+An idea sharing application developed in Ruby on Rails. It's hosted on Heroku and uses Postgres as database.
 
-Things you may want to cover:
+Developed as part of [Techrise](https://www.techrise.me/) web development bootcamp.
 
-* Ruby version
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Dependencies:
+The dependencies are included in the Gemfile
